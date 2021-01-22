@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75922FA425B7A5D600409E68 /* TallGrassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75922FA325B7A5D600409E68 /* TallGrassApp.swift */; };
+		75922FA825B7A5D800409E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75922FA725B7A5D800409E68 /* Assets.xcassets */; };
+		75922FAB25B7A5D800409E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75922FAA25B7A5D800409E68 /* Preview Assets.xcassets */; };
+		75922FBA25B7A60F00409E68 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75922FB925B7A60F00409E68 /* WidgetKit.framework */; };
+		75922FBC25B7A60F00409E68 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75922FBB25B7A60F00409E68 /* SwiftUI.framework */; };
+		75922FC225B7A61100409E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75922FC125B7A61100409E68 /* Assets.xcassets */; };
+		75922FC825B7A61100409E68 /* WidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 75922FB725B7A60F00409E68 /* WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75922FF025B7A93F00409E68 /* Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75922FD325B7A61E00409E68 /* Widgets.swift */; };
+		75922FF125B7A93F00409E68 /* RandomCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75922FD125B7A61E00409E68 /* RandomCardWidget.swift */; };
+		75922FF225B7A93F00409E68 /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 75922FD225B7A61E00409E68 /* widgets.intentdefinition */; };
+		75922FFC25B7AA6F00409E68 /* UIImage+AverageColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75922FF525B7A99700409E68 /* UIImage+AverageColor.swift */; };
+		75922FFF25B7B7A200409E68 /* widgets.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 75922FD225B7A61E00409E68 /* widgets.intentdefinition */; };
+		7592301025B7B99900409E68 /* StepOneCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300825B7B99900409E68 /* StepOneCard.swift */; };
+		7592301125B7B99900409E68 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300925B7B99900409E68 /* SafariView.swift */; };
+		7592301225B7B99900409E68 /* StepTwoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300A25B7B99900409E68 /* StepTwoCard.swift */; };
+		7592301325B7B99900409E68 /* StepThreeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300B25B7B99900409E68 /* StepThreeCard.swift */; };
+		7592301425B7B99900409E68 /* TroubleshootingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300C25B7B99900409E68 /* TroubleshootingCard.swift */; };
+		7592301525B7B99900409E68 /* OnboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300D25B7B99900409E68 /* OnboardingCard.swift */; };
+		7592301625B7B99900409E68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300E25B7B99900409E68 /* ContentView.swift */; };
+		7592301725B7B99900409E68 /* ScryOneButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7592300F25B7B99900409E68 /* ScryOneButtonStyle.swift */; };
+		75C4CF4E25B8EACC00CB60F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75C4CF4D25B8EACC00CB60F1 /* Launch Screen.storyboard */; };
+		75C4CF6225B907E500CB60F1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C4CF6125B907E500CB60F1 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75922FC625B7A61100409E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75922F9825B7A5D600409E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75922FB625B7A60F00409E68;
+			remoteInfo = WidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75922FCC25B7A61100409E68 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				75922FC825B7A61100409E68 /* WidgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		75922FA025B7A5D600409E68 /* TallGrass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallGrass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75922FA325B7A5D600409E68 /* TallGrassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallGrassApp.swift; sourceTree = "<group>"; };
+		75922FA725B7A5D800409E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75922FAA25B7A5D800409E68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		75922FAC25B7A5D800409E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75922FB725B7A60F00409E68 /* WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		75922FB925B7A60F00409E68 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		75922FBB25B7A60F00409E68 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		75922FC125B7A61100409E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75922FC325B7A61100409E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75922FD125B7A61E00409E68 /* RandomCardWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomCardWidget.swift; sourceTree = "<group>"; };
+		75922FD225B7A61E00409E68 /* widgets.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = widgets.intentdefinition; sourceTree = "<group>"; };
+		75922FD325B7A61E00409E68 /* Widgets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Widgets.swift; sourceTree = "<group>"; };
+		75922FF525B7A99700409E68 /* UIImage+AverageColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+AverageColor.swift"; sourceTree = "<group>"; };
+		7592300825B7B99900409E68 /* StepOneCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOneCard.swift; sourceTree = "<group>"; };
+		7592300925B7B99900409E68 /* SafariView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		7592300A25B7B99900409E68 /* StepTwoCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwoCard.swift; sourceTree = "<group>"; };
+		7592300B25B7B99900409E68 /* StepThreeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThreeCard.swift; sourceTree = "<group>"; };
+		7592300C25B7B99900409E68 /* TroubleshootingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleshootingCard.swift; sourceTree = "<group>"; };
+		7592300D25B7B99900409E68 /* OnboardingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
+		7592300E25B7B99900409E68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../ScryOne/ScryOne/ContentView.swift; sourceTree = "<group>"; };
+		7592300F25B7B99900409E68 /* ScryOneButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScryOneButtonStyle.swift; sourceTree = "<group>"; };
+		75C4CF4D25B8EACC00CB60F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		75C4CF6125B907E500CB60F1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75922F9D25B7A5D600409E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75922FB425B7A60F00409E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75922FBC25B7A60F00409E68 /* SwiftUI.framework in Frameworks */,
+				75922FBA25B7A60F00409E68 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75922F9725B7A5D600409E68 = {
+			isa = PBXGroup;
+			children = (
+				75922FA225B7A5D600409E68 /* TallGrass */,
+				75922FBD25B7A61000409E68 /* Widgets */,
+				75922FB825B7A60F00409E68 /* Frameworks */,
+				75922FA125B7A5D600409E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75922FA125B7A5D600409E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75922FA025B7A5D600409E68 /* TallGrass.app */,
+				75922FB725B7A60F00409E68 /* WidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75922FA225B7A5D600409E68 /* TallGrass */ = {
+			isa = PBXGroup;
+			children = (
+				75922FA325B7A5D600409E68 /* TallGrassApp.swift */,
+				75C4CF4D25B8EACC00CB60F1 /* Launch Screen.storyboard */,
+				7592300E25B7B99900409E68 /* ContentView.swift */,
+				7592300D25B7B99900409E68 /* OnboardingCard.swift */,
+				7592300925B7B99900409E68 /* SafariView.swift */,
+				7592300F25B7B99900409E68 /* ScryOneButtonStyle.swift */,
+				7592300825B7B99900409E68 /* StepOneCard.swift */,
+				7592300A25B7B99900409E68 /* StepTwoCard.swift */,
+				7592300B25B7B99900409E68 /* StepThreeCard.swift */,
+				7592300C25B7B99900409E68 /* TroubleshootingCard.swift */,
+				75922FA725B7A5D800409E68 /* Assets.xcassets */,
+				75922FAC25B7A5D800409E68 /* Info.plist */,
+				75922FA925B7A5D800409E68 /* Preview Content */,
+			);
+			path = TallGrass;
+			sourceTree = "<group>";
+		};
+		75922FA925B7A5D800409E68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				75922FAA25B7A5D800409E68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		75922FB825B7A60F00409E68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75922FB925B7A60F00409E68 /* WidgetKit.framework */,
+				75922FBB25B7A60F00409E68 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75922FBD25B7A61000409E68 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				75922FD225B7A61E00409E68 /* widgets.intentdefinition */,
+				75922FD325B7A61E00409E68 /* Widgets.swift */,
+				75C4CF6125B907E500CB60F1 /* File.swift */,
+				75922FD125B7A61E00409E68 /* RandomCardWidget.swift */,
+				75922FF525B7A99700409E68 /* UIImage+AverageColor.swift */,
+				75922FC125B7A61100409E68 /* Assets.xcassets */,
+				75922FC325B7A61100409E68 /* Info.plist */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75922F9F25B7A5D600409E68 /* TallGrass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75922FAF25B7A5D800409E68 /* Build configuration list for PBXNativeTarget "TallGrass" */;
+			buildPhases = (
+				75922F9C25B7A5D600409E68 /* Sources */,
+				75922F9D25B7A5D600409E68 /* Frameworks */,
+				75922F9E25B7A5D600409E68 /* Resources */,
+				75922FCC25B7A61100409E68 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75922FC725B7A61100409E68 /* PBXTargetDependency */,
+			);
+			name = TallGrass;
+			productName = TallGrass;
+			productReference = 75922FA025B7A5D600409E68 /* TallGrass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75922FB625B7A60F00409E68 /* WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75922FC925B7A61100409E68 /* Build configuration list for PBXNativeTarget "WidgetsExtension" */;
+			buildPhases = (
+				75922FB325B7A60F00409E68 /* Sources */,
+				75922FB425B7A60F00409E68 /* Frameworks */,
+				75922FB525B7A60F00409E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetsExtension;
+			productName = WidgetsExtension;
+			productReference = 75922FB725B7A60F00409E68 /* WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75922F9825B7A5D600409E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					75922F9F25B7A5D600409E68 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					75922FB625B7A60F00409E68 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 75922F9B25B7A5D600409E68 /* Build configuration list for PBXProject "TallGrass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75922F9725B7A5D600409E68;
+			productRefGroup = 75922FA125B7A5D600409E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75922F9F25B7A5D600409E68 /* TallGrass */,
+				75922FB625B7A60F00409E68 /* WidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75922F9E25B7A5D600409E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C4CF4E25B8EACC00CB60F1 /* Launch Screen.storyboard in Resources */,
+				75922FAB25B7A5D800409E68 /* Preview Assets.xcassets in Resources */,
+				75922FA825B7A5D800409E68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75922FB525B7A60F00409E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75922FC225B7A61100409E68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75922F9C25B7A5D600409E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7592301325B7B99900409E68 /* StepThreeCard.swift in Sources */,
+				7592301225B7B99900409E68 /* StepTwoCard.swift in Sources */,
+				7592301025B7B99900409E68 /* StepOneCard.swift in Sources */,
+				75922FFF25B7B7A200409E68 /* widgets.intentdefinition in Sources */,
+				7592301725B7B99900409E68 /* ScryOneButtonStyle.swift in Sources */,
+				75922FA425B7A5D600409E68 /* TallGrassApp.swift in Sources */,
+				7592301625B7B99900409E68 /* ContentView.swift in Sources */,
+				7592301425B7B99900409E68 /* TroubleshootingCard.swift in Sources */,
+				7592301525B7B99900409E68 /* OnboardingCard.swift in Sources */,
+				7592301125B7B99900409E68 /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75922FB325B7A60F00409E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C4CF6225B907E500CB60F1 /* File.swift in Sources */,
+				75922FF225B7A93F00409E68 /* widgets.intentdefinition in Sources */,
+				75922FF125B7A93F00409E68 /* RandomCardWidget.swift in Sources */,
+				75922FF025B7A93F00409E68 /* Widgets.swift in Sources */,
+				75922FFC25B7AA6F00409E68 /* UIImage+AverageColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75922FC725B7A61100409E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75922FB625B7A60F00409E68 /* WidgetsExtension */;
+			targetProxy = 75922FC625B7A61100409E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75922FAD25B7A5D800409E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		75922FAE25B7A5D800409E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 6;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		75922FB025B7A5D800409E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TallGrass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TallGrass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndavis.TallGrass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		75922FB125B7A5D800409E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TallGrass/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TallGrass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndavis.TallGrass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		75922FCA25B7A61100409E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndavis.TallGrass.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75922FCB25B7A61100409E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johndavis.TallGrass.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75922F9B25B7A5D600409E68 /* Build configuration list for PBXProject "TallGrass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75922FAD25B7A5D800409E68 /* Debug */,
+				75922FAE25B7A5D800409E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75922FAF25B7A5D800409E68 /* Build configuration list for PBXNativeTarget "TallGrass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75922FB025B7A5D800409E68 /* Debug */,
+				75922FB125B7A5D800409E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75922FC925B7A61100409E68 /* Build configuration list for PBXNativeTarget "WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75922FCA25B7A61100409E68 /* Debug */,
+				75922FCB25B7A61100409E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75922F9825B7A5D600409E68 /* Project object */;
+}
