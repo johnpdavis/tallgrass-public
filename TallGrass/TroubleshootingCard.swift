@@ -48,7 +48,7 @@ struct TroubleshootingCard: View {
                     }
                 }
                 .padding()
-                .buttonStyle(ScryOneButtonStyle())
+                .buttonStyle(TallGrassButtonStyle())
                 
                 
                 Text("Refresh didn't work?")

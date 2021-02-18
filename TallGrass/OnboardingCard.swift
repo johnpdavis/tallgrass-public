@@ -39,7 +39,7 @@ struct OnboardingCard: View {
         }
         .foregroundColor(.white)
         .frame(maxWidth: 500)
-        .background(RoundedRectangle(cornerRadius: 25.0, style: .continuous).fill(LinearGradient(gradient: Gradient(colors: [Color("DarkBackground"), Color("LightBackground")]), startPoint: .top, endPoint: .bottom)).padding(2))
+        .background(RoundedRectangle(cornerRadius: 25.0, style: .continuous).fill(LinearGradient(gradient: Gradient(colors: [Color("darkBackground"), Color("lightBackground")]), startPoint: .top, endPoint: .bottom)).padding(2))
     }
 }
 
