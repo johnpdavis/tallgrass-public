@@ -76,7 +76,7 @@
 		7592300B25B7B99900409E68 /* StepThreeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepThreeCard.swift; sourceTree = "<group>"; };
 		7592300C25B7B99900409E68 /* TroubleshootingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleshootingCard.swift; sourceTree = "<group>"; };
 		7592300D25B7B99900409E68 /* OnboardingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
-		7592300E25B7B99900409E68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../ScryOne/ScryOne/ContentView.swift; sourceTree = "<group>"; };
+		7592300E25B7B99900409E68 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7592300F25B7B99900409E68 /* TallGrassButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TallGrassButtonStyle.swift; sourceTree = "<group>"; };
 		75C4CF4D25B8EACC00CB60F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		75C4CF6125B907E500CB60F1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
