@@ -1,5 +1,5 @@
 //
-//  ScryOneButtonStyle.swift
+//  TallGrassButtonStyle.swift
 //  ScryOne
 //
 //  Created by John Davis on 1/18/21.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ScryOneButtonStyle: ButtonStyle {
+struct TallGrassButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         configuration.label
             .padding(.vertical, 10)
-            .foregroundColor(configuration.isPressed ? Color("DarkBackground") : .white)
+            .foregroundColor(configuration.isPressed ? Color("darkBackground") : .white)
             .background(
                 RoundedRectangle(cornerRadius: 18, style: .continuous)
-                    .fill(Color("DarkBackground").opacity( configuration.isPressed ? 0.4 : 1.0))
+                    .fill(Color("darkBackground").opacity( configuration.isPressed ? 0.4 : 1.0))
             )
     }
 }
