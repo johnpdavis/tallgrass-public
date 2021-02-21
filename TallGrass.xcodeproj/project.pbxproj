@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7538E27125E323670039E348 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7538E27025E323670039E348 /* ContentView.swift */; };
 		75922FA425B7A5D600409E68 /* TallGrassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75922FA325B7A5D600409E68 /* TallGrassApp.swift */; };
 		75922FA825B7A5D800409E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75922FA725B7A5D800409E68 /* Assets.xcassets */; };
 		75922FAB25B7A5D800409E68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75922FAA25B7A5D800409E68 /* Preview Assets.xcassets */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7538E27025E323670039E348 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		75922FA025B7A5D600409E68 /* TallGrass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallGrass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75922FA325B7A5D600409E68 /* TallGrassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallGrassApp.swift; sourceTree = "<group>"; };
 		75922FA725B7A5D800409E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,8 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				75922FA325B7A5D600409E68 /* TallGrassApp.swift */,
+				7538E27025E323670039E348 /* ContentView.swift */,
 				75C4CF4D25B8EACC00CB60F1 /* Launch Screen.storyboard */,
-				7592300E25B7B99900409E68 /* ContentView.swift */,
 				7592300D25B7B99900409E68 /* OnboardingCard.swift */,
 				7592300925B7B99900409E68 /* SafariView.swift */,
 				7592300F25B7B99900409E68 /* TallGrassButtonStyle.swift */,
@@ -274,12 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7592301325B7B99900409E68 /* StepThreeCard.swift in Sources */,
+				7538E27125E323670039E348 /* ContentView.swift in Sources */,
 				7592301225B7B99900409E68 /* StepTwoCard.swift in Sources */,
 				7592301025B7B99900409E68 /* StepOneCard.swift in Sources */,
 				75922FFF25B7B7A200409E68 /* widgets.intentdefinition in Sources */,
 				7592301725B7B99900409E68 /* TallGrassButtonStyle.swift in Sources */,
 				75922FA425B7A5D600409E68 /* TallGrassApp.swift in Sources */,
-				7592301625B7B99900409E68 /* ContentView.swift in Sources */,
 				7592301425B7B99900409E68 /* TroubleshootingCard.swift in Sources */,
 				7592301525B7B99900409E68 /* OnboardingCard.swift in Sources */,
 				7592301125B7B99900409E68 /* SafariView.swift in Sources */,
